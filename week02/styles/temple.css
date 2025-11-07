@@ -10,7 +10,7 @@ body {
 }
 
 header, footer {
-    background-color: #000103;
+    background-color: #0d224d;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -40,7 +40,7 @@ img {
 
 section {
     margin: 10px 0;
-    border: 1px solid rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(80, 122, 12, 0.1); 
     padding: 10px;
     background-color: aquamarine;
     font-size: 1rem; 
