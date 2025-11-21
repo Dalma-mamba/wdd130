@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #8ea722;
-  --secondary-color: #f4a261;
+  --primary-color: #2a2c22;
+  --secondary-color: #99541b;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", "Georgia", serif;
@@ -20,7 +20,7 @@ header {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #4b2b4b; 
+  color: #942194; 
 }
 
 header, main, footer {
@@ -49,11 +49,11 @@ nav, p, section, article {
 
 .hero img {
   display: block;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
-h1.hero-title { 
+h1 { 
   position: absolute;
   top: 20px;
   width: 100%;
@@ -65,6 +65,6 @@ h1.hero-title {
 }
 
 .hero article img {
-  float: center;
-  width: 125px;
+  float: right;
+  width:125px;
 }
