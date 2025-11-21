@@ -31,7 +31,7 @@ header, main, footer {
 }
 
 h1, h2 {
-  font-family: var(--heading-font)
+  font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
@@ -44,7 +44,7 @@ nav, p, section, article {
   text-decoration: none;
 }
 
-.hero {
+.hero h1{
   position: relative;
 }
 
@@ -61,9 +61,10 @@ h1 {
   padding: 16px;
   text-align: center;
   opacity: 0.7;
-  background-color: var(--accent1-color)
+  background-color: var(--accent1-color);
   color: #fff;
 }
+
 
 .hero article img {
   float: right;
