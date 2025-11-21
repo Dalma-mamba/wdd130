@@ -7,6 +7,7 @@
   --body-font: Arial, Helvetica, sans-serif;
 }
 
+
 header {
   background-color: var(--primary-color);
   color: #fff;
@@ -19,9 +20,10 @@ header {
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #751b75; 
+  font-family: var(--body-font);
+  color: #751b75;
 }
+
 
 header, main, footer {
   max-width: 840px; 
@@ -66,5 +68,7 @@ h1 {
 
 .hero article img {
   float: right;
-  width:125px;
+  width: 125px;
+  margin-left: 16px;
 }
+
