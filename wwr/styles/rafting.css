@@ -10,7 +10,7 @@
 
 header {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--accent2-color)
 }
 
 * {
@@ -21,18 +21,17 @@ header {
 
 body {
   font-family: var(--body-font);
-  color: #751b75;
+  color: var(--accent1-color)
 }
 
 
 header, main, footer {
   max-width: 840px; 
   margin: 0 auto;
-  padding: 0 16px;
 }
 
 h1, h2 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: var(--heading-font)
   color: var(--primary-color);
 }
 
@@ -62,13 +61,12 @@ h1 {
   padding: 16px;
   text-align: center;
   opacity: 0.7;
-  background-color: rgba(38, 70, 83, 0.8); 
+  background-color: var(--accent1-color)
   color: #fff;
 }
 
 .hero article img {
   float: right;
   width: 125px;
-  margin-left: 16px;
 }
 
