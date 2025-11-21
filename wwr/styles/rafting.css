@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #2a2c22;
-  --secondary-color: #99541b;
+  --primary-color: #1e1f1d;
+  --secondary-color: #312e2b;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", "Georgia", serif;
@@ -20,7 +20,7 @@ header {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #942194; 
+  color: #751b75; 
 }
 
 header, main, footer {
