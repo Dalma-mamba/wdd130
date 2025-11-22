@@ -1,1 +1,47 @@
-.DS_Store
+
+
+        <section class=" history">
+            <h2>"History"</h2>
+            <div class="history-content">
+            <p>
+                Dalnjebo Rafting began as a small dream along the rushing banks of the Great Usutu River. Back in 2014,
+                its founder, Dalnjebo M., was a young explorer who loved adventure and helping people connect with
+                nature.
+            </p>
+            <p>
+                What started as simple sunrise drifts grew into advanced routes, team-building events, and popular glow
+                night tours. By 2018, the company became known for professional guides, friendly service, and safe,
+                thrilling experiences.
+            </p>
+            <p>
+                Today, Dalnjebo Rafting continues to deliver river adventures that inspire lasting memories. Through
+                growth and success, the company still carries its original motto:
+            </p>
+            <p><em>“Ride the river. Chase the thrill. Remember the journey.”</em></p>
+            </div>
+        </section>
+        <section class="adventures">
+            <h2>"Adventure Awaits You!"</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/adventure1.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure3.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4.jpg" alt="Rapid Rush">
+                    <figcaption>Rapid Rush</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure5.jpg" alt="Family Float">
+                    <figcaption>Family Float</figcaption>
+                </figure>
+            </div>
+        </section>
