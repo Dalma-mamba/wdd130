@@ -1,15 +1,10 @@
 :root {
-  --primary-color: #556e3b;
+  --primary-color: #556e30;       /* Fixed typo: --primary-clor and invalid hex */
   --secondary-color: #312e2b;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
-}
-
-header {
-  background-color: var(--primary-color);
-  color: var(--accent2-color);
 }
 
 * {
@@ -21,6 +16,11 @@ header {
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
 }
 
 header, main, footer {
@@ -69,15 +69,12 @@ nav, p, section, article {
 
 .hero article {
   position: absolute;   /* REQUIRED */
-  bottom: 20px;         /* You can change if needed */
+  bottom: 20px;
   left: 20px;
   right: 20px;
 }
 
-/* keep your article image float */
 .hero article img {
   float: right;
   width: 125px;
 }
-
-
