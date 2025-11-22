@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #556e30;       /* Fixed typo: --primary-clor and invalid hex */
-  --secondary-color: #312e2b;
+  --primary-color: #556e30;
+  --secondary-color: #312e2b;  /* currently unused */
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
+
 
 * {
   margin: 0;
