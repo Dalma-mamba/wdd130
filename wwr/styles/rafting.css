@@ -7,10 +7,9 @@
   --body-font: Arial, Helvetica, sans-serif;
 }
 
-
 header {
   background-color: var(--primary-color);
-  color: var(--accent2-color)
+  color: var(--accent2-color);
 }
 
 * {
@@ -21,9 +20,8 @@ header {
 
 body {
   font-family: var(--body-font);
-  color: var(--accent1-color)
+  color: var(--accent1-color);
 }
-
 
 header, main, footer {
   max-width: 840px; 
@@ -44,18 +42,16 @@ nav, p, section, article {
   text-decoration: none;
 }
 
-.hero h1{
-  position: relative;
+/* ----------------------- */
+/* FIXED HERO REQUIREMENTS */
+/* ----------------------- */
+
+.hero {
+  position: relative;   /* REQUIRED */
 }
 
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-h1 { 
-  position: absolute;
+.hero h1 {
+  position: absolute;   /* REQUIRED */
   top: 20px;
   width: 100%;
   padding: 16px;
@@ -65,9 +61,23 @@ h1 {
   color: #fff;
 }
 
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
+.hero article {
+  position: absolute;   /* REQUIRED */
+  bottom: 20px;         /* You can change if needed */
+  left: 20px;
+  right: 20px;
+}
+
+/* keep your article image float */
 .hero article img {
   float: right;
   width: 125px;
 }
+
 
