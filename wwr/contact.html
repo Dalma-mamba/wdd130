@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dalnjebo Mamba">
+    <meta name="description"
+        content="Contact Dalnjebo Rafting for inquiries, reservations, or support. Includes company info, map, employee profiles, and message form.">
+
+    <title>Dryoar Company | Dalnjebo Rafting</title>
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/dryoar.png" alt="Rafting Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+
+        <!-- COMPANY INFORMATION -->
+        <section class="company-info">
+            <h1>Dryoar Company</h1>
+
+            <p><strong>Address:</strong> 123 Riverbank Road, Ezulwini, Eswatini</p>
+            <p><strong>Phone:</strong> +268 7612 3456</p>
+            <p><strong>Email:</strong> info@dalnjeborafting.com</p>
+            
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4189389691!2d31.195!3d-26.316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3x000000000000000!2sEzulwini!5e0!3m2!1sen!2ssz!4v0000000000000"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        </section>
+
+        <!-- EMPLOYEE PROFILES -->
+        <section class="employees">
+            <h2>Our Team</h2>
+
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Sipho - Senior Guide">
+                    <figcaption>Sipho — Senior Rafting Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Lindiwe - Office Manager">
+                    <figcaption>Lindiwe — Office Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Thabo - Safety Coordinator">
+                    <figcaption>Thabo — Safety Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section class="contact-form">
+            <h2>Send a Message</h2>
+
+            <form>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label class="newsletter">
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <nav class="socialmedia">
+            <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn logo"></a>
+            <a href="https://instagram.com"><img src="images/instar.png" alt="Instagram logo"></a>
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook logo"></a>
+        </nav>
+
+        <p>&copy; 2025 Dalnjebo Rafting | Created by Dalnjebo Mamba</p>
+    </footer>
+
+</body>
+
+</html>
